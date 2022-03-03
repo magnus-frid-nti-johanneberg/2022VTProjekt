@@ -28,9 +28,63 @@
     height: 100px;  
 }
 
-.navLinks{
-    
+.navlinks{
+    display: flex;
+    background-color: lightpink;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   position: absolute; 
+    height: 90vh; 
+    width: 20%; 
+    right: 0px; 
+    top: -90vh;
+    transition: all 1s;  
 }
+
+.navActive{
+    transform: translateY(100vh);
+}
+
+.navlinks li{
+    list-style: none;
+}
+
+.navlinks a{
+    color:blueviolet;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+
+.burgermenu{
+    margin-right: 50px;
+}
+
+.burgermenu div{
+    background-color: blueviolet;
+    width: 25px;
+    height: 3px;
+    margin: 5px; 
+    border-radius: 4px;
+transition: all 0.3s; 
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
 
 /* main-hero-section ----------- */
 
