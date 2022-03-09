@@ -2,7 +2,14 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px; 
-    font-family: Arial, sans-serif;
+    font-family: 'Vollkorn', serif;
+}
+
+body{
+    background-color: white;
+    background-image: url(../img/portfolio-background-image.jpg);
+    background-size: contain;
+    background-position: center;
 }
 
 #wrapper{
@@ -23,7 +30,7 @@
     display: flex; 
     justify-content: flex-end; 
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(216, 216, 216);
     height: 100px;  
 }
 
@@ -62,13 +69,31 @@
 
 
 .burger div{
-    width: 25px; 
-    height: 3px; 
-    background-color: blueviolet;
+    background-color: black;
     margin: 5px;
-    border-radius: 17%; 
+    border-radius: 5%; 
     transition: all 0.3s;
 }
+
+.line1{
+    width: 25px; 
+    height: 3px;
+    transition: all 0.3s;
+}
+
+.line2{
+    height:3px;
+    width: 18px;
+      transition: all 0.3s;
+}
+
+.line3{
+    height: 3px;
+    width: 25px;
+    transition: all 0.3s;
+}
+
+
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -86,7 +111,6 @@
 
 .main-hero-section{
     grid-area: mhs;
-    border: solid 1px black;
     min-height: 100vh; 
     padding: 4%; 
     
@@ -95,6 +119,10 @@
 .main-hero-image{
     border: solid 1px black; 
     min-height: 75vh; 
+    background-image: url(../img/tb-Bodydolls.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+  
 
 }
 
@@ -106,7 +134,7 @@
 }
 
 .heading{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .button-wrapper{
@@ -128,11 +156,28 @@
 /* pr-section ----------- */
 
 .pr-section{
-    grid-area: pr;
-    border: solid 1px black;
-    height: 20vh;
-    padding: 4%;
+    display: grid;
+    grid-area: pr; 
+    align-items: center;
+    height: 220px;
+    padding: 10px; 
 }
+
+.pr-image{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    min-height: 200px;
+    border-radius: 5%;
+    transform: rotate(2deg);
+}
+
+.pr-content{
+    border: solid 1px black;
+    color: white;
+}
+
 
 /* gallery-section ----------- */
 
@@ -140,8 +185,9 @@
     grid-area: gs;
     border: solid 1px black;
     height: 20vh;
-    padding: 4%;
+    
 }
+
 
 /* Footer ----------- */
 
@@ -149,6 +195,6 @@ footer{
     grid-area: ft;
     border: solid 1px black;
     height: 20vh;
-    padding: 4%;
+    
     
 }
