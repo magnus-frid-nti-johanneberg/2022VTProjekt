@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px; 
     font-family: 'Vollkorn', serif;
+
 }
 
 body{
@@ -31,7 +32,6 @@ body{
     display: flex; 
     justify-content: flex-end; 
     align-items: center;
-    background-color: rgb(216, 216, 216);
     height: 100px;  
 }
 
@@ -42,10 +42,10 @@ body{
     position:absolute;
     align-items: center;
     right:0px; 
-    height: 90vh;
-    top: -90vh;
+    height: 100vh;
+    top: -100vh;
     width: 100%; 
-    background-color: aqua;
+    background-color: beige;
     transition: all 1s;
 
 }
@@ -61,6 +61,8 @@ body{
 .navLinks a{
     text-decoration: none;
     font-weight: bold;
+    font-size: 75px;
+    color: #253659;
 }
 
 .burger{
@@ -132,6 +134,7 @@ body{
 
 .heading{
     font-size: 40px;
+    color: #253659;
 }
 
 .button-wrapper{
@@ -186,6 +189,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #253659;
 }
 
 .gs-line {
@@ -270,7 +274,34 @@ body{
 /* Footer ----------- */
 
 footer{
+    display: flex;
     grid-area: ft;
     border: solid 1px black;
-    height: 20vh;
+    justify-content: center;
+}
+
+.contact-section{
+    border: solid 1px black;
+    width: 50%;
+}
+
+.contact-heading{
+    list-style: none;
+}
+
+.contact-heading a{
+    text-decoration: none;
+}
+
+.ftmenu-section{
+    border: solid 1px black; 
+    width: 50%;
+}
+
+.ftmenu-heading{
+    list-style: none;
+}
+
+.ftmenu-heading a{
+    text-decoration: none;
 }
