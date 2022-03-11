@@ -33,6 +33,7 @@ body{
     justify-content: flex-end; 
     align-items: center;
     height: 100px;  
+    position: sticky;
 }
 
 .navLinks{
@@ -47,6 +48,7 @@ body{
     width: 100%; 
     background-color: beige;
     transition: all 1s;
+    justify-content: space-evenly;
 
 }
 
@@ -275,13 +277,18 @@ body{
 footer{
     display: flex;
     grid-area: ft;
-    border: solid 1px black;
+    border: solid 1px #253659;
     justify-content: center;
+    min-height: 30vh;
 }
 
 .contact-section{
-    border: solid 1px black;
+   display: flex;
+    border: solid 1px #253659;
     width: 50%;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .contact-heading{
@@ -293,8 +300,11 @@ footer{
 }
 
 .ftmenu-section{
-    border: solid 1px black; 
+    display: flex; 
     width: 50%;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .ftmenu-heading{
