@@ -33,8 +33,16 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    padding-left: 25px;
+    padding-left: 35px;
 
+}
+
+img{
+    transition: all .2s ease-in-out;
+}
+
+img:hover{ 
+    transform: scale(1.2);
 }
 
 .portfolio-logo{
@@ -67,9 +75,6 @@ body{
     background-color: beige;
     transition: all 1s;
     justify-content: space-evenly;
-    text-decoration: underline 4px;
-    
-
 }
 
 .navActive{
@@ -78,6 +83,11 @@ body{
 
 .navLinks li{
     list-style: none;
+}
+
+.navLinks a:hover{
+    font-size: 85px;
+    color: #f27457;
 }
 
 .navLinks a{
@@ -346,4 +356,8 @@ footer{
 .ftmenu-heading a{
     text-decoration: none;
     color: #253659;
+}
+
+.ftmenu-heading a:hover{
+    color: #f27457;
 }
