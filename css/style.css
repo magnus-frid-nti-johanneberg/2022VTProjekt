@@ -221,10 +221,14 @@ img:hover{
     min-height: 200px;
     border-radius: 5%;
     transform: rotate(-2deg);
+    background-image: url(../img/Example\ work-img.pr.jpeg);
+    background-size: contain;
 }
 
 .pr-content{
-    color: white;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -277,14 +281,22 @@ img:hover{
 }
 
 .work1-image{
-    background-color: teal;
+    border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/all_flying_copy.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .work1-heading{
-    background-color: blue;
+    display: flex;
     height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
 }
 
 .glr-work2{
@@ -293,14 +305,21 @@ img:hover{
 }
 
 .work2-image{
-    background-color: teal;
+    border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/Skully.jpg);
+    background-size: contain;
+    background-position: cover;
 }
 
 .work2-heading{
-    background-color: blue;
+    display: flex;
     height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
 }
 
 .glr-work3{
@@ -308,14 +327,21 @@ img:hover{
 }
 
 .work3-image{
-    background-color: teal;
+    border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/tb-Bodydolls.jpg);
+    background-size: contain;
+    background-position: cover;
 }
 
 .work3-heading{
-    background-color: blue;
+    display: flex;
     height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
 }
 
 
