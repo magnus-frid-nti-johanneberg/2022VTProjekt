@@ -86,14 +86,16 @@ img:hover{
 }
 
 .navLinks a:hover{
-    font-size: 85px;
+    font-size: 70px;
     color: #f27457;
+    transform: color 0.2s;
+
 }
 
 .navLinks a{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 75px;
+    font-weight: 600;
+    font-size: 65px;
     color: #253659;
 }
 
@@ -175,11 +177,23 @@ img:hover{
     flex-wrap: wrap;
     height: 80px;
     width: 80px;
-    border: solid black 1px;
+    border: solid #f27457 5px;
     border-radius: 50%;
     margin-top: 12%;
     margin-left: 12%;;
 
+}
+
+.btn-circle {
+    display: flex;
+    text-decoration: none;
+    color: #04bf9d;
+    font-weight: 600;
+    font-size: 35px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    transform: rotate(-6deg);
+    
 }
 
 
@@ -201,11 +215,10 @@ img:hover{
     background-color: teal;
     min-height: 200px;
     border-radius: 5%;
-    transform: rotate(2deg);
+    transform: rotate(-2deg);
 }
 
 .pr-content{
-    border: solid 1px black;
     color: white;
 }
 
@@ -307,44 +320,56 @@ img:hover{
 footer{
     display: flex;
     grid-area: ft;
-    border: solid 1px #253659;
+    border-top: solid 1px #253659;
     justify-content: center;
     min-height: 30vh;
+
 }
 
 .contact-section{
    display: flex;
-    border: solid 1px #253659;
     width: 50%;
     justify-content: center;
     align-items: center;
-
+  
 }
 
 .contact-heading{
+    display: flex;
     list-style: none;
-    font-size: 20px; 
+    font-size: 18px;
+    flex-direction: column;
 }
 
 .contact-heading a{
     text-decoration: none;
     color: #253659;
-    
+    font-family: 'Barlow', sans-serif;
 }
+
+.contact-heading a:hover{
+    color: #f27457;
+    transform: color 0.2s;
+
+}
+
+.contact-heading li{
+    margin: 10px;
+    box-shadow: #000;
+}
+
 
 .ftmenu-section{
     display: flex; 
     width: 50%;
     justify-content: center;
     align-items: center;
-    
 
 }
 
 .ftmenu-heading{
     list-style: none;
     font-size: 30px; 
-    
 }
 
 .ftmenu-heading li{
@@ -360,4 +385,6 @@ footer{
 
 .ftmenu-heading a:hover{
     color: #f27457;
+    transform: color 0.2s;
+
 }
