@@ -177,23 +177,28 @@ img:hover{
     flex-wrap: wrap;
     height: 80px;
     width: 80px;
-    border: solid #f27457 5px;
+    border: solid #f58c74 5px;
     border-radius: 50%;
     margin-top: 12%;
-    margin-left: 12%;;
+    margin-left: 20%;
 
 }
 
 .btn-circle {
     display: flex;
     text-decoration: none;
-    color: #04bf9d;
+    color: #0baf91;
     font-weight: 600;
     font-size: 35px;
     text-overflow:ellipsis;
     white-space: nowrap;
     transform: rotate(-6deg);
-    
+}
+
+.btn-content:hover{
+    font-size: 40px;
+    transform:scale(0.2s)
+
 }
 
 
