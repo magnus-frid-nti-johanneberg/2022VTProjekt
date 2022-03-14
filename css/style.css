@@ -57,7 +57,7 @@ img:hover{
     justify-content: flex-end; 
     align-items: center;
     height: 100px;  
-    position: sticky;
+   
     justify-content: space-between;
 }
 
@@ -74,7 +74,8 @@ img:hover{
     width: 100%; 
     background-color: beige;
     transition: all 1s;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    position: fixed;
 }
 
 .navActive{
@@ -226,7 +227,7 @@ img:hover{
 }
 
 .pr-content{
-    color: yellow;
+    color: white;
     font-size: 20px;
     font-weight: 600;
 }
