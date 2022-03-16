@@ -57,7 +57,6 @@ img:hover{
     justify-content: flex-end; 
     align-items: center;
     height: 100px;  
-   
     justify-content: space-between;
 }
 
@@ -352,9 +351,9 @@ img:hover{
 footer{
     display: flex;
     grid-area: ft;
-    border-top: solid 1px #253659;
     justify-content: center;
     min-height: 30vh;
+    background-color: rgb(241, 241, 241);
 
 }
 
@@ -436,6 +435,132 @@ footer{
 
 #work-wrapper{
     display: grid; 
-
+    grid-template-areas: 
+    "nvb"
+    "wrk-pr"
+    "wrks"
+    "ft";
+    min-width: 100vw;
 }
+
+/* Work-pr Section --------*/
+
+.work-pr-section{
+    grid-area: wrk-pr; 
+    height: 30vh; 
+}
+
+.work-pr-box{
+    display: flex; 
+    padding: 10%;
+    align-items: center;
+}
+
+.work-heading{
+    color:#253659;
+    font-size: 50px;
+}
+
+/*Portfolio Section -------*/
+
+.work-section{
+    grid-area: wrks;
+}
+
+.portfolio-content{
+    padding: 6%;
+}
+
+.port-work1{
+    min-height: 550px;
+    margin-bottom: 10%;
+}
+
+.port1-image{
+    border: solid 1px #253659;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.port1-heading{
+    background-color: teal;
+    display: flex;
+    height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.port-work2{
+    min-height: 550px;
+    margin-bottom: 10%;
+}
+
+.port2-image{
+    border: solid 1px #253659;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.port2-heading{
+    background-color: teal;
+    display: flex;
+    height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.port-work3{
+    min-height: 550px;
+    margin-bottom: 10%;
+}
+
+.port3-image{
+    border: solid 1px #253659;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.port3-heading{
+    background-color: teal;
+    display: flex;
+    height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.port-work4{
+    min-height: 550px;
+}
+
+.port4-image{
+    border: solid 1px #253659;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.port4-heading{
+    background-color: teal;
+    display: flex;
+    height: 150px;
+    color:#253659;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Studiopage CSS ---------*/
+
+#studio-wrapper{
+   min-width: 100vw;
+}
+
+
+
+
 
