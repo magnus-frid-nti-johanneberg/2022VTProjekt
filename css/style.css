@@ -121,7 +121,7 @@ img:hover{
 .line2{
     height:2px;
     width: 18px;
-      transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .line3{
@@ -386,8 +386,16 @@ footer{
 
 .contact-heading li{
     margin: 10px;
-    box-shadow: #000;
 }
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid 1px black;
+    justify-content: space-between;
+}
+
 
 
 .linef{
@@ -397,9 +405,7 @@ footer{
     margin-top: 4vh;
     margin-bottom: 4vh;
 
-
 }
-
 
 .ftmenu-section{
     display: flex; 
@@ -418,6 +424,7 @@ footer{
    margin: 20px;
    background-color: beige;
    text-transform: center;
+
 }
 
 .ftmenu-heading a{
@@ -452,13 +459,17 @@ footer{
 
 .work-pr-box{
     display: flex; 
-    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
     align-items: center;
 }
 
 .work-heading{
     color:#253659;
-    font-size: 50px;
+    font-size: 42px;
+     
 }
 
 /*Portfolio Section -------*/
@@ -536,6 +547,7 @@ footer{
 
 .port-work4{
     min-height: 550px;
+    margin-bottom: 10%;
 }
 
 .port4-image{
