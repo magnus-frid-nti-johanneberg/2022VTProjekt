@@ -570,7 +570,56 @@ figcaption{
 
 #studio-wrapper{
    min-width: 100vw;
+   grid-template-areas: 
+   "nvb"
+   "sti"
+   "pss"
+   "ps"
+   "ft";
 }
+
+.studio-intro{
+    border: solid 1px black;
+    grid-area: sti;
+    min-height: 35vh;
+    padding: 6%;
+}
+
+.studio-image{
+    border: solid 1px black;
+    height: 35vh;
+}
+
+.personal-studio-section{
+    grid-area: pss;
+    min-height: 20vh;  
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.personal-heading{
+    border: solid 1px black;
+    height: 20vh;
+}
+
+.pr-studio{
+    border: solid 1px black;
+    grid-area: ps;
+    min-height: 80vh;
+    margin-top: 100px;
+    padding: 6%;
+}
+
+.studio-pr-image{
+    border: solid 1px black;
+    height: 300px;
+    width: 240px;
+}
+
+
+
+
+
 
 
 
