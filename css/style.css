@@ -222,6 +222,7 @@ img:hover{
     transform: rotate(-2deg);
     background-image: url(../img/Example\ work-img.pr.jpeg);
     background-size: contain;
+    background-size: cover;
 }
 
 .pr-content{
@@ -588,9 +589,11 @@ figcaption{
 }
 
 .studio-image{
-    border: solid 1px black;
     height: 35vh;
     border-radius: 3%;
+    background-image: url(../img/pr-studio-image.jpg);
+    background-size: contain;
+    background-size: cover;
 }
 
 .personal-studio-section{
@@ -601,14 +604,24 @@ figcaption{
 }
 
 .personal-heading{
-    border: solid 1px black;
-    height: 20vh;
+    font-family: 'Barlow', sans-serif;
+    color:#253659;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.linepr{
+    border: solid 1px #03A696;
+    height: 1px;
+    width: 100vw;
+    margin-top: 50px;
 }
 
 .pr-studio{
     grid-area: ps;
     min-height: 80vh;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 6%;
  
 }
@@ -622,6 +635,8 @@ figcaption{
     border: solid 1px black;
     height: 500px;
     width: 400px;
+    background-image: url(../img/CV\ Bild\ .jpg);
+    background-size: contain;
 
 }
 
