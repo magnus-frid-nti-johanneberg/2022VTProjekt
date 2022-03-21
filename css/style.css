@@ -488,10 +488,11 @@ figcaption{
     border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/18Dailies_02.jpg);
+    background-size: contain;
 }
 
 .port1-heading{
-    background-color: teal;
     display: flex;
     height: 150px;
     color:#253659;
@@ -509,10 +510,11 @@ figcaption{
     border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/18Dailies_15.jpg);
+    background-size: contain;
 }
 
 .port2-heading{
-    background-color: teal;
     display: flex;
     height: 150px;
     color:#253659;
@@ -530,10 +532,12 @@ figcaption{
     border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/18Dailies_14.jpg);
+    background-size: contain;
+
 }
 
 .port3-heading{
-    background-color: teal;
     display: flex;
     height: 150px;
     color:#253659;
@@ -551,10 +555,12 @@ figcaption{
     border: solid 1px #253659;
     height: 400px;
     border-radius: 3%;
+    background-image: url(../img/Skully.jpg);
+    background-size: contain;
+    background-size: cover;
 }
 
 .port4-heading{
-    background-color: teal;
     display: flex;
     height: 150px;
     color:#253659;
@@ -576,7 +582,6 @@ figcaption{
 }
 
 .studio-intro{
-    border: solid 1px black;
     grid-area: sti;
     min-height: 35vh;
     padding: 6%;
