@@ -621,7 +621,7 @@ figcaption{
 .pr-studio{
     grid-area: ps;
     min-height: 80vh;
-    margin-top: 150px;
+    margin-top: 110px;
     padding: 6%;
  
 }
@@ -670,6 +670,46 @@ figcaption{
     font-size: 18px;
     font-weight: 400;
 }
+
+/* contactpage --------*/
+
+#contact-wrapper{
+    min-width: 100vw;
+    grid-template-areas: 
+    "nvb"
+    "chs"
+    "cts"
+    "ft";
+}
+
+.ch-section{
+    grid-area: chs;
+    height: 80vh;
+}
+
+.ch-imageblock{
+    background-image: url(../img/ch-image-unsplash.jpg);
+    height: 80vh;
+    background-size: contain;
+    background-size: cover;
+ 
+}
+
+.ct-section{
+    display: flex;
+    grid-area: cts;
+    height: 100vh;
+    justify-content: center;
+}
+
+.ct-contactblock{
+    background-color: #e9e9e9;
+    height: 100vh;
+    width: 70%;
+    margin: -90px;
+}
+
+
 
 
 
