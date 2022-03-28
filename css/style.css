@@ -706,12 +706,13 @@ figcaption{
 
 .ch-hd-content1{
     font-size: 25px;
-
+    text-align: center;
 }
 
 .ch-hd-content2{
     font-size: 50px;
     font-weight: 600;
+    text-align: center;
 }
 
 .ct-section{
@@ -805,6 +806,70 @@ figcaption{
 
 textarea{
     resize: none;
+}
+
+/* Desktop-first ----------*/
+
+@media (min-width: 600px) {
+    .main-hero-section{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 5%;
+    }
+
+    .main-hero-image{
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .pr-section{
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 200px;
+    }
+
+    .pr-image{
+        min-height: 300px;
+    }
+    
+}
+
+@media (min-width:600px) {
+
+    .gallery-content{
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       flex-direction: row;
+    
+    }
+
+    .work1-image{
+        width: 500px;
+    }
+
+    .glr-work1{
+        margin-bottom: 20px;
+    }
+
+    .work2-image{
+        width: 500px;
+      
+    }
+
+    .glr-work2{
+        margin-bottom: 20px; 
+    }
+
+    .work3-image{
+        width: 500px;
+ 
+    }
+
 }
 
 
