@@ -153,8 +153,10 @@ img:hover{
 }
 
 .main-hero-image{
-    border: solid 1px black; 
     min-height: 75vh; 
+    background-image: url(../img/mainhero-image.jpg);
+    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -632,12 +634,12 @@ figcaption{
 }
 
 .studio-pr-image{
-    border: solid 1px black;
+    border: solid 1px rgb(102, 92, 92);
     height: 500px;
     width: 400px;
     background-image: url(../img/CV\ Bild\ .jpg);
     background-size: contain;
-
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .pr-details{
@@ -823,6 +825,10 @@ textarea{
         width: 50%;
     }
 
+    .heading{
+        font-size: 50px;
+    }
+
 }
 
 @media (min-width: 600px) {
@@ -939,9 +945,72 @@ textarea{
         font-size: 28px;
     }
 
-
-  
 }
+
+@media (min-width:600px) {
+
+     .personal-studio-section{
+        width: 70%;
+    }
+
+    .personal-heading{
+        font-size: 20px;
+    }
+
+    .pr-studio{
+        display: flex; 
+        margin-top: 100px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 200px;
+    }
+
+    .pr-details{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pr-name-heading{
+        font-size: 32px;
+    }
+
+    .pr-cv-heading{
+        font-family: 20px;
+    }
+
+
+    .pr-cv-content{
+        width: 30vw;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+
+    .studio-pr-image{
+        height: 600px;
+        width: 500px;
+    }
+}
+
+
+@media (min-width:600px) {
+
+    .ch-hd-content1{
+        font-size: 30px;
+    }
+
+    .ch-hd-content2{
+        font-size:55px;
+    } 
+
+
+
+
+
+}
+
+
 
 
 
