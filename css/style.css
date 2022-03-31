@@ -844,8 +844,9 @@ textarea{
         display: flex;
        flex-wrap: wrap;
        justify-content: center;
+       align-content: center;
        flex-direction: row;
-    
+       justify-content: space-evenly;
     }
 
     .work1-image{
@@ -858,7 +859,6 @@ textarea{
 
     .work2-image{
         width: 500px;
-      
     }
 
     .glr-work2{
@@ -867,10 +867,82 @@ textarea{
 
     .work3-image{
         width: 500px;
- 
+    }  
+    
+    .ftmenu-heading{
+        font-size: 40px;
     }
 
 }
+
+@media (min-width:600px) {
+
+    .work-pr-box{
+        display: flex; 
+        justify-content: center;
+    } 
+
+    .work-heading{
+        font-size: 50px;
+    }
+
+    .portfolio-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .port-work2{
+        margin-top: 100px;
+        margin-bottom: -10%;
+    }
+
+    .port1-image{
+        width: 600px;
+        height: 500px;
+    }
+
+    .port1-heading{
+        font-size: 28px;
+    }
+
+    .port2-image{
+        width: 600px;
+        height: 500px;
+    }
+
+    .port2-heading{
+        font-size: 28px;
+    }
+
+    .port3-image{
+        width: 600px;
+        height: 500px;
+    }
+
+    .port3-heading{
+        font-size: 28px;
+    }
+    .port-work4{
+        margin-top: 100px;
+    }
+
+    .port4-image{
+        width: 600px;
+        height: 500px;
+    }
+
+    .port4-heading{
+        font-size: 28px;
+    }
+
+
+  
+}
+
 
 
 
