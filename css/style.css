@@ -87,7 +87,7 @@ img:hover{
 .navLinks a:hover{
     font-size: 70px;
     color: #f27457;
-    transform: color 0.2s;
+    transform: 0.2s;
 
 }
 
@@ -312,7 +312,7 @@ img:hover{
     border-radius: 3%;
     background-image: url(../img/Skully.jpg);
     background-size: contain;
-    background-position: cover;
+    background-size: cover;
 }
 
 .work2-heading{
@@ -334,7 +334,7 @@ img:hover{
     border-radius: 3%;
     background-image: url(../img/tb-Bodydolls.jpg);
     background-size: contain;
-    background-position: cover;
+    background-size: cover;
 }
 
 .work3-heading{
@@ -380,7 +380,7 @@ footer{
 
 .contact-heading a:hover{
     color: #f27457;
-    transform: color 0.2s;
+    transform: 0.2s;
 
 }
 
@@ -423,7 +423,6 @@ figcaption{
 .ftmenu-heading li{
    margin: 20px;
    background-color: beige;
-   text-transform: center;
 
 }
 
@@ -434,7 +433,7 @@ figcaption{
 
 .ftmenu-heading a:hover{
     color: #f27457;
-    transform: color 0.2s;
+    transform:  0.2s;
 
 }
 
@@ -702,8 +701,6 @@ figcaption{
 
 .ch-heading{
     color: white;
-    text-transform: center; 
-    text-justify: center;
 }
 
 .ch-hd-content1{
@@ -977,7 +974,8 @@ textarea{
     }
 
     .pr-cv-heading{
-        font-family: 20px;
+        font-family:'Barlow' sans-serif;
+        
     }
 
 
