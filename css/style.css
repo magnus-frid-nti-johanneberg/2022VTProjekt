@@ -285,7 +285,7 @@ img:hover{
 .work1-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/all_flying_copy.jpg);
     background-size: contain;
     background-size: cover;
@@ -309,7 +309,7 @@ img:hover{
 .work2-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/Skully.jpg);
     background-size: contain;
     background-size: cover;
@@ -331,7 +331,7 @@ img:hover{
 .work3-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/tb-Bodydolls.jpg);
     background-size: contain;
     background-size: cover;
@@ -489,7 +489,7 @@ figcaption{
 .port1-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/18Dailies_02.jpg);
     background-size: contain;
 }
@@ -511,7 +511,7 @@ figcaption{
 .port2-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/18Dailies_15.jpg);
     background-size: contain;
 }
@@ -533,7 +533,7 @@ figcaption{
 .port3-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/18Dailies_14.jpg);
     background-size: contain;
 
@@ -556,7 +556,7 @@ figcaption{
 .port4-image{
     border: solid 1px #253659;
     height: 400px;
-    border-radius: 3%;
+    border-radius: 2%;
     background-image: url(../img/Skully.jpg);
     background-size: contain;
     background-size: cover;
