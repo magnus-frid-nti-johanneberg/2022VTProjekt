@@ -277,27 +277,25 @@ img:hover{
 }
 
 .glr-work1{
+    display: flex;
     min-height: 550px;
     margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .work1-image{
     border: solid 1px #253659;
     height: 400px;
+    width: 350px;
     border-radius: 2%;
-    background-image: url(../img/all_flying_copy.jpg);
+    background-image: url(../img/Vanessa.jpg);
     background-size: contain;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work1-heading{
-    display: flex;
     height: 150px;
-    color:#253659;
-    font-size: 25px;
-    justify-content: center;
     text-align: center;
 }
 
@@ -310,39 +308,33 @@ img:hover{
     border: solid 1px #253659;
     height: 400px;
     border-radius: 2%;
-    background-image: url(../img/Skully.jpg);
+    background-image: url(../img/pink-drink.jpg);
     background-size: contain;
-    background-size: cover;
 }
 
 .work2-heading{
-    display: flex;
     height: 150px;
-    color:#253659;
-    font-size: 25px;
-    justify-content: center;
     text-align: center;
 }
 
 .glr-work3{
+    display: flex;
     min-height: 550px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .work3-image{
     border: solid 1px #253659;
     height: 400px;
+    width: 350px;
     border-radius: 2%;
-    background-image: url(../img/tb-Bodydolls.jpg);
+    background-image: url(../img/Detail-Bodydolls.jpg);
     background-size: contain;
-    background-size: cover;
 }
 
 .work3-heading{
-    display: flex;
     height: 150px;
-    color:#253659;
-    font-size: 25px;
-    justify-content: center;
     text-align: center;
 }
 
@@ -519,6 +511,7 @@ figcaption{
     border-radius: 2%;
     background-image: url(../img/pink-drink.jpg);
     background-size: contain;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 
 }
 
@@ -528,16 +521,21 @@ figcaption{
 }
 
 .port-work2{
+    display: flex;
     min-height: 550px;
     margin-bottom: 10%;
+    flex-direction: column;
+    align-items:center;
 }
 
 .port2-image{
     border: solid 1px #253659;
     height: 400px;
+    width: 400px;
     border-radius: 2%;
     background-image: url(../img/18Dailies_15.jpg);
     background-size: contain;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .port2-heading{
@@ -546,17 +544,22 @@ figcaption{
 }
 
 .port-work3{
+    display: flex;
     min-height: 550px;
     margin-bottom: 10%;
+    align-items: center;
+    flex-direction: column;
 }
 
 .port3-image{
     border: solid 1px #253659;
     height: 400px;
+    width: 50%;
     border-radius: 2%;
     background-image: url(../img/Magnus_frid_skolkatalog.jpg);
     background-size: contain;
     background-repeat: repeat-x;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 
 }
 
@@ -566,17 +569,22 @@ figcaption{
 }
 
 .port-work4{
+    display: flex;
     min-height: 550px;
     margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .port4-image{
     border: solid 1px #253659;
-    height: 400px;
+    height: 450px;
+    width: 380px;
     border-radius: 2%;
-    background-image: url(../img/Skully.jpg);
+    background-image: url(../img/ArtOfMaki-example.jpg);
     background-size: contain;
-    background-size: cover;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .port4-heading{
@@ -866,7 +874,8 @@ textarea{
     }
 
     .work1-image{
-        width: 500px;
+        height: 500px;
+        width: 450px;
     }
 
     .glr-work1{
@@ -874,7 +883,8 @@ textarea{
     }
 
     .work2-image{
-        width: 500px;
+        width: 550px;
+        height: 500px;
     }
 
     .glr-work2{
@@ -882,7 +892,8 @@ textarea{
     }
 
     .work3-image{
-        width: 500px;
+        height: 500px;
+        width: 450px;
     }  
     
     .ftmenu-heading{
@@ -926,7 +937,7 @@ textarea{
     }
 
     .port2-image{
-        width: 550px;
+        width: 500px;
         height: 500px;
     }
 
@@ -935,7 +946,7 @@ textarea{
     }
 
     .port3-image{
-        width: 550px;
+        width: 280px;
         height: 500px;
     }
 
@@ -947,8 +958,8 @@ textarea{
     }
 
     .port4-image{
-        width: 600px;
-        height: 500px;
+        width: 380px;
+        height: 450px;
     }
 
     .port4-heading{
@@ -999,7 +1010,7 @@ textarea{
 
     .studio-pr-image{
         height: 600px;
-        width: 500px;
+        width: 450px;
     }
 }
 
