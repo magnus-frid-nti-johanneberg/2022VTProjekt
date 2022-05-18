@@ -292,6 +292,7 @@ img:hover{
     border-radius: 2%;
     background-image: url(../img/Vanessa.jpg);
     background-size: contain;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .work1-heading{
@@ -310,6 +311,7 @@ img:hover{
     border-radius: 2%;
     background-image: url(../img/pink-drink.jpg);
     background-size: contain;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .work2-heading{
@@ -331,6 +333,7 @@ img:hover{
     border-radius: 2%;
     background-image: url(../img/Detail-Bodydolls.jpg);
     background-size: contain;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
 
 .work3-heading{
